@@ -1,7 +1,7 @@
 {
     "name":"simulator",
-    "description": "When APIs slows your front-end development down: record and replay HTTP responses like a boss",
-    "version":"0.0.1",
+    "description": "When APIs slow your front-end development down: record and replay HTTP responses like a boss",
+    "version":"0.0.2",
     "author":"Aaron Surty <aaron.surty@genesyslab.com>",
     "keywords":[
         "simulate",
@@ -12,7 +12,7 @@
     ],
     "dependencies":{
         "replay":"git+https://github.com/genesyslab/node-replay.git",
-        "express:"3.4.4",
+        "express":"3.4.4",
         "http-proxy":"0.10.3"
     }
 }
