@@ -36,7 +36,7 @@ app.listen(process.env.PORT || 3000);
 Set up http-proxy to forward all api requests to your actual server.
 
 ```
-var httpProxy = require('simulator').http-proxy
+var httpProxy = require('simulator').httpProxy
 
 app.all('/api/*', function(req, res) {
     var proxy = new httpProxy.HttpProxy({target:{host:[YOUR_BACKEND_HOST], port:[YOUR_BACKEND_PORT]});
