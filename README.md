@@ -16,7 +16,7 @@ Providing a way to stub out a back-end by simply running node-replay in record m
 ## Setup
 
 ```
-npm install git+:https://github.com/genesyslab/node-replay.git
+npm install git+https://github.com/genesyslab/node-simulator.git
 ```
 
 ## How to use
